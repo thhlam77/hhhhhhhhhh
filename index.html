@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Gửi anh iu</title>
+    <title></title>
     <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600" rel="stylesheet"/>
     <link rel="stylesheet" href="/static/css/app.css" />
   </head>
@@ -64,12 +64,8 @@
             "fontName": "Mali",
             "color": "#ff0019",
             "messages": [
-              "Hpbd anh iu",
-              "Chúc A sinh nhật vui vẻ",
-              "19/08/1999",
-              "Tất cả mọi điều tốt đẹp sẽ đến với A",
-              "I lớp u ❤️",
-              "Ta đón sinh nhật cùng nhau 3 năm rồi í 😘"
+              "Cảm ơn m đã chơi với t 2nam",
+              "Cảm ơn m nhiều lắm"
             ],
             "music": "/"
           },
@@ -85,95 +81,7 @@
   </div>
   <script type="module" src="/static/js/app.js"></script>
   <script type="module" src="/static/js/home.js"></script>
-    <div class='codepro-music-box'>
-  <button class='codepro-music-box-toggle-btn'>
-    <a title='Play music'><i class='fa fa-music'></i></a>
-  </button>
-  <audio id="custom-audio" src="https://dev.htpn.vn/upload/SnapTik.Net_7538344945187327239.mp3"></audio>
-</div>
-
-<style>
-  .codepro-music-box {
-    position: fixed;
-    width: 300px;
-    height: 160px;
-    z-index: 120;
-    bottom: 30px;
-    left: 30px;
-  }
-
-  .codepro-music-box a {
-    color: #fff;
-  }
-
-  .codepro-music-box button {
-    background: rgba(0, 0, 0, 0.1);
-    width: 40px;
-    height: 40px;
-    font-size: 1rem;
-    color: #fff;
-    border: 1px solid #e6e6e6;
-    outline: 0;
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    border-radius: 50%;
-  }
-
-  /* Giữ icon căn giữa tuyệt đối */
-  .codepro-music-box-toggle-btn i {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  /* Dấu xẹt ngang */
-  .codepro-music-box-toggle-btn.muted::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 26px;
-    height: 2px;
-    background: red;
-    transform: translate(-50%, -50%) rotate(-30deg);
-    pointer-events: none;
-  }
-
-  @media (max-width: 991px) {
-    .codepro-music-box {
-      width: 250px;
-      height: 120px;
-    }
-
-    .codepro-music-box button {
-      left: 0;
-    }
-  }
-</style>
-
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-<script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<script>
-  $(document).ready(function () {
-    const audio = document.getElementById("custom-audio");
-    const btn = $(".codepro-music-box-toggle-btn");
-
-    btn.on("click", function () {
-      if (audio.paused) {
-        audio.play();
-        btn.removeClass("muted");
-      } else {
-        audio.pause();
-        btn.addClass("muted");
-      }
-    });
-  });
-</script>
+    
 
   </body>
 </html>
